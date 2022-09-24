@@ -8,10 +8,20 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.mt-12 {
+    margin-top: 12px;
+}
+
 .header {
     width: 100%;
     height: 120px;
     background-color: rgb(43,43,43);
+    position: fixed;
+    z-index: 1;
+    top: 0 ;
+    left: 0;
+    right: 0;
+    overflow: hidden;
 }
 
 .header__navbar {
@@ -132,4 +142,258 @@ ul {
 }
 .navbar-main-item:hover .navbar-main-item-link {
     color: #f6462e;
+}
+
+.slider {
+   
+}
+
+.slider-img {
+    width: 100%;
+    
+}
+
+.content {
+    padding-top: 64px;
+}
+
+.content-heading {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.content-sub-heading {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 18px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+.content-list-service {
+    margin-top: 34px;
+}
+
+.content-list-service-item {
+    display: flex;
+}
+
+.content-list-service-icon {
+    font-size: 34px;
+    width: 108px;
+    height: 80px;
+    background-color: lightblue ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrap-service {
+    background-color: gray;
+}
+
+.content-list-service-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.content-2 {
+    padding-top: 54px;
+}
+
+.content-heading-list {
+    font-weight: 500;
+    margin: 16px;
+    text-align: center;
+}
+
+.content-list-car {
+
+}
+
+.content-list-car-item {
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+}
+
+.content-list-car-item:hover .content-car-img {
+    scale: 1.4;
+    transition: scale linear 0.2s;
+}
+
+.content-car-img-box {
+    width: 100%;
+    overflow: hidden;
+}
+
+.content-car-img {
+    width: 100%;
+}
+
+.content-car-text-box {
+    padding-top: 16px ;
+    text-align: center;
+
+}
+
+.content-car-price a {
+    color: red;
+    text-decoration: none;
+}
+
+.content-car-name {
+    font-weight: 600;
+}
+
+.content-car-price {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.content-car-button {
+    width: 100px;
+    margin: 16px 0 ;
+    transform: translateX(90%);
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 10px 12px;
+    border-radius: 2px;
+
+}
+
+.content-car-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.content-box {
+    width: 800px;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.content-3 {
+    background-color: lightblue;
+}
+
+.content-preorder-heading {
+    padding: 32px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+.content-preorder-name {
+    width: 100%;
+}
+
+.content-preorder-box-input input {
+    padding: 12px;
+    border: 1px solid rgb(0 0 0 / 12%);
+}
+
+.content-preorder-phone {
+    width: 100%;
+}
+
+.content-preorder-mail {
+    width: 100%;
+
+}
+
+.content-preorder-name-car {
+    width: 100%;
+
+}
+
+.content-preorder-btn {
+    background-color: #f6462e;
+    border: none;
+    display: block;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    float: right;   
+    margin-bottom: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.content-preorder-btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    outline: none;
+}
+
+.map {
+    width: 100%;
+}
+
+
+
+.footer__content {
+    padding-top: 26px;
+    padding-bottom: 26px    ;
+}
+.footer__heading {
+
+}
+.footer__list {
+    margin-top: 12px;
+}
+.footer__list-item {
+    margin-top: 12px;
+}
+.footer__list-link {
+    text-decoration: none;
+    color: black;
+}
+
+.footer__list-link:hover {
+    color: #f6462e;
+}
+
+.footer__download {
+    display: flex;
+}
+.footer__download-qr {
+    width: 70px;
+    height: 70px;
+}
+.footer__download-apps {
+    margin-top: 12px;
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__download-apps-link {
+    text-decoration: none;
+}
+.footer__download-app-img {
+   width: 85px;
+   height: 20px;
+}
+
+.footer__bottom {
+    background-color:rgba(0,0,0,.65);
+    background: #f5f5f5;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.footer__text {
+    font-size: 16px;
+    padding-top: 12px;
 }
