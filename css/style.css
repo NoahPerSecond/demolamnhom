@@ -180,6 +180,10 @@ ul {
     display: flex;
 }
 
+.content-list-service-item:hover  {
+    cursor: pointer;
+}   
+
 .content-list-service-icon {
     font-size: 34px;
     width: 108px;
@@ -202,6 +206,7 @@ ul {
     width: 100%;
     color: white;
     background-color: black;
+    user-select: none;
 }
 
 .content-2 {
@@ -366,6 +371,7 @@ ul {
 
 .footer__download {
     display: flex;
+    margin-top: 12px;
 }
 .footer__download-qr {
     width: 70px;
