@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(43,43,43);
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.header__navbar-logo {
+    width: 108px;
+    height: 56px ;
+}
+
+.header__navbar-search {
+    width: 620px;
+    height: 36px;
+    background-color: white;
+    display: flex;
+    border-radius: 16px;
+    margin-top: 8px;
+}
+
+.header__navbar-search-icon {
+    width: 36px;
+    height: 36px;
+    font-weight: 100;
+    color: black;
+    opacity: 0.4;
+    text-align: center;
+    line-height: 36px;
+    border-bottom-left-radius: 
+}
+
+.header__navbar-search-input {
+    width: 500px;
+    border-color: none;
+    outline: none;
+    border: none;
+    padding-left: 23px;
+}
+
+.header__navbar-search-filter   {
+    margin: 3px 0;
+    border-left: 1px solid rgba(0, 0, 0,0.2);
+    padding-left: 16px;
+    flex: 1;
+    display: flex;
+    color: rgba(0, 0, 0,0.5);
+    line-height: 30px;
+
+}
+
+.header__navbar-search-filter-text   {
+    font-size: 14px;
+}
+
+.header__navbar-search-filter-icon  {
+    color: rgba(0, 0, 0,0.6);
+    padding-left: 8px;
+}
+
+.header__navbar-list {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.header__navbar-item {
+    color: white;
+    font-size: 14px;
+    margin: 8px 8px 0;
+    display:;
+}
+
+.header__navbar-item-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.header__navbar-item-link:hover {
+    opacity: 0.7;
+}
+.header__navbar-item-has-border::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid white;
+    opacity: 0.2;
+    padding-left: 10px ;
+    height: 16px;
+    transform: translateX(-70%) translateY(-100%);
+}
+
+.navbar-main {
+    height: 48px;
+    width: 100%;
+}
+
+.navbar-main-list {
+}
+
+.navbar-main-item {
+    display: inline-block;
+}
+
+.navbar-main-item-link {
+    padding: 0 16px;
+    text-decoration: none;
+    color: white;
+    line-height: 42px;
+}
+.navbar-main-item:hover {
+    border-bottom: 1px solid #f6462e;
+
+}
+.navbar-main-item:hover .navbar-main-item-link {
+    color: #f6462e;
+}
